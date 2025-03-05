@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع AZC</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        .section {
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        button {
+            padding: 10px 20px;
+            margin-top: 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+        .download-btn {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .youtube-btn {
+            background-color: #FF0000;
+            color: white;
+        }
+        .discord-btn {
+            background-color: #7289DA;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="section" id="download">
+            <h2>تحميل</h2>
+            <button class="download-btn">تحميل</button>
+        </div>
+        <div class="section" id="youtube">
+            <h2>يوتيوب</h2>
+            <button class="youtube-btn">يوتيوب</button>
+        </div>
+        <div class="section" id="discord">
+            <h2>ديسكورد</h2>
+            <button class="discord-btn">ديسكورد</button>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
